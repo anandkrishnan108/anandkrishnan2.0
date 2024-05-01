@@ -12,18 +12,16 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import bpp_logo from '../images/portfolio/bpp_logo.png';
+import chp_logo from '../images/portfolio/chp.png';
+import nasa_logo from '../images/portfolio/nasa.png';
+import cs124 from '../images/portfolio/cs124.jpg';
+import t20_worldcup_2022 from '../images/portfolio/t20.png';
+import veganme_logo from '../images/portfolio/veganme.jpg';
+import chicago from '../images/portfolio/chicago.jpg';
+import srh_logo from '../images/portfolio/srh.webp';
 import profilepic from '../images/profilepic.jpg';
+import shrine from '../images/travels/shrine_of_remembrance.jpg'
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -77,17 +75,11 @@ export const heroData: Hero = {
         at the<strong className="text-stone-100"> University of Illinois at Urbana-Champaign</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me hiking and exploring the nature around me, or playing soccer (football).
+        In my free time time, you can catch me <strong className="text-stone-100">hiking</strong> and exploring <strong className="text-stone-100">nature</strong>, watching the latest <strong className="text-stone-100">cricket</strong> game, or playing <strong className="text-stone-100">soccer</strong>.
       </p>
     </>
   ),
   actions: [
-    {
-      href: '/assets/resume.pdf',
-      text: 'Resume',
-      primary: true,
-      Icon: ArrowDownTrayIcon,
-    },
     {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
@@ -101,16 +93,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I was introduced to computer science in my freshman year of high school, and it immediately became my biggest academic passion. Since then, through a combination of personal projects, classes, and internships, I have developed this passion into a career, while retaining the wonder and excitement I first felt when learning the possibilities of what my code and imagination could accomplish together. Check out some of the experiences that were crucial in my orgoing software development journey below!`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Illinois, USA', Icon: MapIcon},
+    {label: 'Interests', text: 'Cricket, Soccer, Hiking', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Illinois at Urbana Champaign', Icon: AcademicCapIcon},
+    {label: 'Been to', text: 'India, Canada, Australia, New Zealand', Icon: FlagIcon},
+    /*{label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},*/
   ],
 };
 
@@ -118,6 +107,40 @@ export const aboutData: About = {
  * Skills section
  */
 export const skills: SkillGroup[] = [
+  /*{
+    name: 'OOP Languages',
+    skills: [
+      {
+        name: 'C++',
+        level: 8,
+      },
+      {
+        name: 'Java',
+        level: 8,
+      },
+      {
+        name: 'Python',
+        level: 9,
+      },
+    ],
+  },
+  {
+    name: 'Web Development',
+    skills: [
+      {
+        name: 'HTML',
+        level: 9,
+      },
+      {
+        name: 'CSS',
+        level: 8,
+      },
+      {
+        name: 'JavaScript',
+        level: 6,
+      },
+    ],
+  },
   {
     name: 'Spoken languages',
     skills: [
@@ -126,66 +149,33 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Hindi',
+        level: 6,
       },
       {
         name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
         level: 5,
       },
-      {
-        name: 'Golang',
-        level: 4,
-      },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Soft Skills',
     skills: [
       {
-        name: 'React Native',
+        name: 'Teamwork',
+        level: 10,
+      },
+      {
+        name: 'Problem-solving',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
+        name: 'Adaptability',
+        level: 8,
       },
     ],
   },
+  */
 ];
 
 /**
@@ -193,111 +183,113 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage1,
+    title: 'BikeNest',
+    description: 'Android app visualizing bicycle parking locations throghout Chicago.',
+    url: 'https://github.com/CS222-UIUC-FA23/group-project-team27',
+    image: bpp_logo,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage2,
+    title: 'Campus Honors Program',
+    description: 'Website Admin of the UIUC Campus Honors Program website.',
+    url: 'https://honors.illinois.edu/',
+    image: chp_logo,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
+    title: 'NASA Program Insights',
+    description: 'A package for NASA personnel to munge, generate simple statistics, visualizations, and summaries of NASA Applied Science Program data.',
+    url: 'https://github.com/anandkrishnan108/nasaprograminsights',
+    image: nasa_logo,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
+    title: 'UIUC Landmarks',
+    description: 'Demo video showing my CS124 project: an Android app that displays UIUC landmarks.',
+    url: 'https://www.youtube.com/watch?v=OEzaNsuPNds',
+    image: cs124,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
+    title: 'T20 Cricket World Cup Team of the Tournament Dashboard',
+    description: 'Cleaned, filtered, and sorted ESPNCricinfo match data using R to rank 200 players\' performance across various key metrics, such as batting average and bowling economy, from the 2022 World Cup.',
+    url: 'https://rpubs.com/akrishx/t20wc',
+    image: t20_worldcup_2022,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
+    title: 'VeganMe',
+    description: 'Founded VeganMe, a website to help vegans meet their recommended nutrient requirements. 1st place at 2019 Camp Khan programming competition.',
+    url: 'https://vegan-me.github.io/vegan-me/',
+    image: veganme_logo,
   },
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
+    title: 'Firearm-purchase law research',
+    description: 'Researched the relationship between gun homicides in the South Side of Chicago and firearm-purchase laws.',
+    url: 'https://emerginginvestigators.org/articles/firearm-purchase-laws-that-limit-the-number-of-guns-on-the-market-reduce-gun-homicides-in-the-south-side-of-chicago',
+    image: chicago,
   },
   {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
+    title: 'Starved Rock Hikers',
+    description: 'Volunteer website administrator at SRH, a nonprofit increasing awareness for Starved Rock State Park.',
+    url: 'https://www.starvedrockhikers.com/',
+    image: srh_logo,
   },
 ];
 
 /**
- * Resume section -- TODO: Standardize resume contact format or offer MDX
+ * Resume section
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'August 2022 - December 2025',
+    location: 'University of Illinois at Urbana-Champaign',
+    title: 'Bachelor of Science in Computer Science',
+    content: <div>
+      <p>Relevant coursework: Data Structures & Algorithms, Computer Architecture, Linear Algebra.
+    <br/>Honors: Omron National Merit Scholarship Winner (NSMC), Campus Honors Program</p>
+    </div>
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'February 2024 - June 2024',
+    location: 'University of Melbourne',
+    title: 'Study Abroad Exchange Program',
+    content: <p>Relevant coursework: Database Systems, Declarative Programming, Software Modelling and Design
+    <br/>Cool places I visited: Great Ocean Road, MCG, Botanical Gardens, Yarra River Trail, St Kilda</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'September 2022 - Present',
+    location: 'Crowd Dynamics Lab',
+    title: 'Researcher',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        •   Conducting a study to audit online print and e-book markets for price fairness against browsing
+profiles defined by 8 unique race-and-gender combinations.<br/>
+        •   Scraped product information and price data for 280,000+ books across the specified browsing profiles by writing Selenium Python and SQL scripts.<br/>
+        • Performed Bayesian analysis on the collected data to determine whether price discrimination occurred.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'June 2023 - December 2023',
+    location: 'National Aeronautics and Space Administration (NASA)',
+    title: 'Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        • Created an application in R Shiny summarizing 7,000+ NASA Applied Sciences investments to provide
+NASA program managers with a comprehensive tool set to assess projects’ success and diversity.<br/>
+        • Summarized investments using metrics such as dollar amount invested, geographic location, and reinvestment rate in accordance with a data-driven approach and the FAIR principles.<br/>
+        • Presented the application at NASA Headquarters to Applied Sciences Program leadership.<br/>
+      </p>
+    ),
+  },
+  {
+    date: 'September 2022 - December 2023',
+    location: 'University of Illinois at Urbana-Champaign Campus Honors Program',
+    title: 'Website Administrator',
+    content: (
+      <p>
+        •	Spearheaded the design and development of the front-end content for the CHP website, utilizing WordPress to create an engaging and user-friendly online platform.<br/>
+        •	Leveraged PHP and SQL to maintain, optimize, and secure the CHP database system, ensuring data integrity and accessibility for CHP student and faculty records.<br/>
+        •	Automated the time-consuming general education credit petition process using Python.
       </p>
     ),
   },
@@ -308,24 +300,9 @@ export const experience: TimelineItem[] = [
  */
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
-  testimonials: [
-    {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-    },
-  ],
+  testimonials: [],
 };
+
 
 /**
  * Travel section
@@ -334,9 +311,9 @@ export const travel:TravelSection = {
   imageSrc: testimonialImage,
   travels: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Shrine of Remembrance',
+      text: 'hello world',
+      image: shrine,
     },
     {
       name: 'Jane Doe',
@@ -345,7 +322,7 @@ export const travel:TravelSection = {
     },
     {
       name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your work ethic.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
