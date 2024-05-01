@@ -14,13 +14,13 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/background.jpg';
 import bpp_logo from '../images/portfolio/bpp_logo.png';
+import chicago from '../images/portfolio/chicago.jpg';
 import chp_logo from '../images/portfolio/chp.png';
-import nasa_logo from '../images/portfolio/nasa.png';
 import cs124 from '../images/portfolio/cs124.jpg';
+import nasa_logo from '../images/portfolio/nasa.png';
+import srh_logo from '../images/portfolio/srh.webp';
 import t20_worldcup_2022 from '../images/portfolio/t20.png';
 import veganme_logo from '../images/portfolio/veganme.jpg';
-import chicago from '../images/portfolio/chicago.jpg';
-import srh_logo from '../images/portfolio/srh.webp';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
