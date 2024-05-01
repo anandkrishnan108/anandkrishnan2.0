@@ -1,4 +1,4 @@
-import classNames from 'classnames';
+/*import classNames from 'classnames';
 import {FC, memo, UIEventHandler, useCallback, useEffect, useMemo, useRef, useState} from 'react';
 
 import {isApple, isMobile} from '../../config';
@@ -137,3 +137,4 @@ const Travel: FC<{travel: Travel; isActive: boolean}> = memo(
 );
 
 export default Travels;
+*/

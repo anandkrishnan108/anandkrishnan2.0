@@ -1,17 +1,18 @@
 import {
   AcademicCapIcon,
-  ArrowDownTrayIcon,
+  /*ArrowDownTrayIcon,
   BuildingOffice2Icon,
-  CalendarIcon,
+  CalendarIcon,*/
   FlagIcon,
   MapIcon,
   SparklesIcon,
+  //TvIcon,
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/background.jpg';
 import bpp_logo from '../images/portfolio/bpp_logo.png';
 import chp_logo from '../images/portfolio/chp.png';
 import nasa_logo from '../images/portfolio/nasa.png';
@@ -21,21 +22,20 @@ import veganme_logo from '../images/portfolio/veganme.jpg';
 import chicago from '../images/portfolio/chicago.jpg';
 import srh_logo from '../images/portfolio/srh.webp';
 import profilepic from '../images/profilepic.jpg';
-import shrine from '../images/travels/shrine_of_remembrance.jpg'
-import testimonialImage from '../images/testimonial.webp';
 import {
   About,
-  ContactSection,
-  ContactType,
+  /*ContactSection,
+  ContactType,*/
   Hero,
   HomepageMeta,
   PortfolioItem,
   SkillGroup,
   Social,
-  TestimonialSection,
   TimelineItem,
-  TravelSection,
+  //TravelSection,
 } from './dataDef';
+//import { getIconCode } from 'next/dist/compiled/@vercel/og/emoji';
+//import Icon from '../components/Icon/Icon';
 
 /**
  * Page meta data
@@ -79,13 +79,7 @@ export const heroData: Hero = {
       </p>
     </>
   ),
-  actions: [
-    {
-      href: `#${SectionId.Contact}`,
-      text: 'Contact',
-      primary: false,
-    },
-  ],
+  actions: [],
 };
 
 /**
@@ -295,18 +289,10 @@ NASA program managers with a comprehensive tool set to assess projects’ succes
   },
 ];
 
-/**
- * Testimonial section
- */
-export const testimonial: TestimonialSection = {
-  imageSrc: testimonialImage,
-  testimonials: [],
-};
-
 
 /**
  * Travel section
- */
+
 export const travel:TravelSection = {
   imageSrc: testimonialImage,
   travels: [
@@ -327,12 +313,13 @@ export const travel:TravelSection = {
     },
   ],
 };
+*/
 
 /**
  * Contact section
  */
 
-export const contact: ContactSection = {
+/*export const contact: ContactSection = {
   headerText: 'Get in touch.',
   description: 'Social media handles:',
   items: [
@@ -362,7 +349,7 @@ export const contact: ContactSection = {
       href: 'https://github.com/anand-krishnan',
     }
   ],
-};
+};*/
 
 /**
  * Social items
