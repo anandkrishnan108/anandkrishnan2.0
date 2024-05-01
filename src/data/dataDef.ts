@@ -108,6 +108,20 @@ export interface Testimonial {
 }
 
 /**
+ * Travel section
+ */
+export interface TravelSection {
+  imageSrc?: string | StaticImageData;
+  travels: Travel[];
+}
+
+export interface Travel {
+  image?: string;
+  name: string;
+  text: string;
+}
+
+/**
  * Contact section
  */
 export interface ContactSection {
