@@ -11,8 +11,8 @@ const About: FC = memo(() => {
     <Section className="bg-neutral-800" sectionId={SectionId.About}>
       <div className={classNames('grid grid-cols-1 gap-y-4', {'md:grid-cols-4': !!profileImageSrc})}>
         {!!profileImageSrc && (
-          <div className="col-span-1 flex justify-start md:justify-center"> {/* Adjusted justify-start class */}
-            <div className="relative h-60 w-full max-w-xs md:h-80 md:w-48 overflow-hidden rounded-xl"> {/* Adjusted width and added max-width */}
+          <div className="col-span-1 flex justify-center md:justify-start"> {/* Adjusted justify-center class */}
+            <div className="relative h-60 w-full max-w-xs md:h-80 md:w-48 overflow-hidden rounded-xl flex justify-center"> {/* Added justify-center class */}
               <Image alt="about-me-image" className="h-full w-full object-cover" src={profileImageSrc} />
             </div>
           </div>
