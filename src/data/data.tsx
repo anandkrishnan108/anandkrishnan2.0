@@ -87,7 +87,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I was introduced to computer science in my freshman year of high school, and it immediately became my biggest academic passion. Since then, through a combination of personal projects, classes, and internships, I have developed this passion into a career, while retaining the wonder and excitement I first felt when learning the possibilities of what my code and imagination could accomplish together. Check out some of the experiences that were crucial in my orgoing software development journey below!`,
+  description: `I was introduced to computer science in my freshman year of high school, and it immediately became my biggest academic passion. Since then, through a combination of personal projects, classes, and internships, I have developed this passion into a career, while retaining the wonder and excitement I first felt when learning the possibilities of what my code and imagination could accomplish together. Check out some of the experiences that were crucial in my ongoing software development journey below!`,
   aboutItems: [
     {label: 'Location', text: 'Illinois, USA', Icon: MapIcon},
     {label: 'Interests', text: 'Cricket, Soccer, Hiking', Icon: SparklesIcon},
@@ -235,8 +235,8 @@ export const education: TimelineItem[] = [
     location: 'University of Illinois at Urbana-Champaign',
     title: 'Bachelor of Science in Computer Science',
     content: <div>
-      <p>Relevant coursework: Data Structures & Algorithms, Computer Architecture, Linear Algebra.
-    <br/>Honors: Omron National Merit Scholarship Winner (NSMC), Campus Honors Program</p>
+      <p>Relevant coursework: Data Structures & Algorithms, Computer Architecture, Linear Algebra
+    <br/>Honors: Omron National Merit Scholarship Winner (NMSC), Campus Honors Program</p>
     </div>
   },
   {
