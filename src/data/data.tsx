@@ -91,7 +91,7 @@ export const aboutData: About = {
   aboutItems: [
     {label: 'Location', text: 'Illinois, USA', Icon: MapIcon},
     {label: 'Interests', text: 'Cricket, Soccer, Hiking', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Illinois at Urbana Champaign', Icon: AcademicCapIcon},
+    {label: 'Study', text: 'University of Illinois at Urbana-Champaign', Icon: AcademicCapIcon},
     {label: 'Been to', text: 'India, Canada, Australia, New Zealand', Icon: FlagIcon},
     /*{label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},*/
   ],
