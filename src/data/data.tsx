@@ -71,7 +71,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm an undergraduate<strong className="text-stone-100"> computer science</strong> student, currently studying
+        I'm an undergraduate<strong className="text-stone-100"> computer science</strong> student currently studying
         at the<strong className="text-stone-100"> University of Illinois at Urbana-Champaign</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
