@@ -21,7 +21,7 @@ import nasa_logo from '../images/portfolio/nasa.png';
 import srh_logo from '../images/portfolio/srh.webp';
 import t20_worldcup_2022 from '../images/portfolio/t20.png';
 import veganme_logo from '../images/portfolio/veganme.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/profilepic.png';
 import {
   About,
   /*ContactSection,
