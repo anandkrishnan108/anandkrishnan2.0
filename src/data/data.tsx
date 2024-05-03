@@ -75,7 +75,7 @@ export const heroData: Hero = {
         at the<strong className="text-stone-100"> University of Illinois at Urbana-Champaign</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me <strong className="text-stone-100">hiking</strong> and exploring <strong className="text-stone-100">nature</strong>, watching the latest <strong className="text-stone-100">cricket</strong> game, or playing <strong className="text-stone-100">soccer</strong>.
+        In my free time, you can catch me <strong className="text-stone-100">hiking</strong> and exploring <strong className="text-stone-100">nature</strong>, watching the latest <strong className="text-stone-100">cricket</strong> game, or playing <strong className="text-stone-100">soccer</strong>.
       </p>
     </>
   ),
@@ -179,7 +179,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'BikeNest',
     description: 'Android app visualizing bicycle parking locations throghout Chicago.',
-    url: 'https://github.com/CS222-UIUC-FA23/group-project-team27',
+    url: 'https://github.com/anandkrishnan108/bikenest',
     image: bpp_logo,
   },
   {
