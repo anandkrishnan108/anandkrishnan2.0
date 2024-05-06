@@ -232,8 +232,8 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: 'August 2022 - December 2025',
-    location: 'University of Illinois at Urbana-Champaign',
-    title: 'Bachelor of Science in Computer Science',
+    location: 'Bachelor of Science in Computer Science',
+    title: 'University of Illinois at Urbana-Champaign',
     content: <div>
       <p>Relevant coursework: Data Structures & Algorithms, Computer Architecture, Linear Algebra
     <br/>Honors: Omron National Merit Scholarship Winner (NMSC), Campus Honors Program</p>
@@ -241,8 +241,8 @@ export const education: TimelineItem[] = [
   },
   {
     date: 'February 2024 - June 2024',
-    location: 'University of Melbourne',
-    title: 'Study Abroad Exchange Program',
+    location: 'Study Abroad Exchange Program',
+    title: 'University of Melbourne',
     content: <p>Relevant coursework: Database Systems, Declarative Programming, Software Modelling and Design
     <br/>Cool places I visited: Great Ocean Road, MCG, Botanical Gardens, Yarra River Trail, St Kilda</p>,
   },
@@ -251,8 +251,8 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
   {
     date: 'September 2022 - Present',
-    location: 'Crowd Dynamics Lab',
-    title: 'Researcher',
+    location: 'Researcher',
+    title: 'Crowd Dynamics Lab',
     content: (
       <p>
         •   Conducting a study to audit online print and e-book markets for price fairness against browsing
@@ -264,8 +264,8 @@ profiles defined by 8 unique race-and-gender combinations.<br/>
   },
   {
     date: 'June 2023 - December 2023',
-    location: 'National Aeronautics and Space Administration (NASA)',
-    title: 'Software Engineer',
+    location: 'Software Engineer',
+    title: 'National Aeronautics and Space Administration (NASA)',
     content: (
       <p>
         • Created an application in R Shiny summarizing 7,000+ NASA Applied Sciences investments to provide
@@ -277,8 +277,8 @@ NASA program managers with a comprehensive tool set to assess projects’ succes
   },
   {
     date: 'September 2022 - December 2023',
-    location: 'University of Illinois at Urbana-Champaign Campus Honors Program',
-    title: 'Website Administrator',
+    location: 'Website Administrator',
+    title: 'University of Illinois at Urbana-Champaign Campus Honors Program',
     content: (
       <p>
         •	Spearheaded the design and development of the front-end content for the CHP website, utilizing WordPress to create an engaging and user-friendly online platform.<br/>
