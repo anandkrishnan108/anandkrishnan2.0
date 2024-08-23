@@ -250,6 +250,31 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'July 2024 - August 2024',
+    location: 'Data Science Intern',
+    title: 'Naval Surface Warfare Center - Crane Division',
+    content: (
+      <p>
+        •   Achieved 87% accuracy in classifying customer responses to an IT service feedback survey by developing a machine learning algorithm leveraging a roBERTa-base sentiment analysis model.<br/>
+        •   Presented analysis results and potential sentiment triggers using Power BI to IT senior leadership to identify room for improvement in department operations.<br/>
+        •   Maintain an active Secret level clearance granted on June 17, 2024
+      </p>
+    ),
+  },
+  {
+    date: 'June 2023 - December 2023',
+    location: 'Software Engineer Intern',
+    title: 'National Aeronautics and Space Administration (NASA)',
+    content: (
+      <p>
+        • Created an application in R Shiny summarizing 7,000+ NASA Applied Sciences investments to provide
+NASA program managers with a comprehensive tool set to assess projects’ success and diversity.<br/>
+        • Summarized investments using metrics such as dollar amount invested, geographic location, and reinvestment rate in accordance with a data-driven approach and the FAIR principles.<br/>
+        • Presented the application at NASA Headquarters to Applied Sciences Program leadership.<br/>
+      </p>
+    ),
+  },
+  {
     date: 'September 2022 - Present',
     location: 'Researcher',
     title: 'Crowd Dynamics Lab',
@@ -259,19 +284,6 @@ export const experience: TimelineItem[] = [
 profiles defined by 8 unique race-and-gender combinations.<br/>
         •   Scraped product information and price data for 280,000+ books across the specified browsing profiles by writing Selenium Python and SQL scripts.<br/>
         • Performed Bayesian analysis on the collected data to determine whether price discrimination occurred.
-      </p>
-    ),
-  },
-  {
-    date: 'June 2023 - December 2023',
-    location: 'Software Engineer',
-    title: 'National Aeronautics and Space Administration (NASA)',
-    content: (
-      <p>
-        • Created an application in R Shiny summarizing 7,000+ NASA Applied Sciences investments to provide
-NASA program managers with a comprehensive tool set to assess projects’ success and diversity.<br/>
-        • Summarized investments using metrics such as dollar amount invested, geographic location, and reinvestment rate in accordance with a data-driven approach and the FAIR principles.<br/>
-        • Presented the application at NASA Headquarters to Applied Sciences Program leadership.<br/>
       </p>
     ),
   },
