@@ -275,20 +275,7 @@ NASA program managers with a comprehensive tool set to assess projects’ succes
     ),
   },
   {
-    date: 'September 2022 - Present',
-    location: 'Researcher',
-    title: 'Crowd Dynamics Lab',
-    content: (
-      <p>
-        •   Conducting a study to audit online print and e-book markets for price fairness against browsing
-profiles defined by 8 unique race-and-gender combinations.<br/>
-        •   Scraped product information and price data for 280,000+ books across the specified browsing profiles by writing Selenium Python and SQL scripts.<br/>
-        • Performed Bayesian analysis on the collected data to determine whether price discrimination occurred.
-      </p>
-    ),
-  },
-  {
-    date: 'September 2022 - December 2023',
+    date: 'September 2022 - present',
     location: 'Website Administrator',
     title: 'University of Illinois at Urbana-Champaign Campus Honors Program',
     content: (
@@ -296,6 +283,18 @@ profiles defined by 8 unique race-and-gender combinations.<br/>
         •	Spearheaded the design and development of the front-end content for the CHP website, utilizing WordPress to create an engaging and user-friendly online platform.<br/>
         •	Leveraged PHP and SQL to maintain, optimize, and secure the CHP database system, ensuring data integrity and accessibility for CHP student and faculty records.<br/>
         •	Automated the time-consuming general education credit petition process using Python.
+      </p>
+    ),
+  },
+  {
+    date: 'September 2022 - June 2024',
+    location: 'Researcher',
+    title: 'Crowd Dynamics Lab',
+    content: (
+      <p>
+        •   Conducted a study to audit online print and e-book markets for price fairness against browsing
+profiles defined by 8 unique race-and-gender combinations.<br/>
+        •   Scraped product information and price data for 280,000+ books across the specified browsing profiles by writing Selenium Python and SQL scripts.<br/>
       </p>
     ),
   },
