@@ -232,16 +232,16 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: 'August 2022 - December 2025',
-    location: 'Bachelor of Science in Computer Science',
+    role: 'Bachelor of Science in Computer Science',
     title: 'University of Illinois at Urbana-Champaign',
     content: <div>
-      <p>Relevant coursework: Data Structures & Algorithms, Computer Architecture, Linear Algebra
+      <p>Relevant coursework: Systems, Data Structures & Algorithms, Computer Architecture, Linear Algebra
     <br/>Honors: Omron National Merit Scholarship Winner (NMSC), Campus Honors Program</p>
     </div>
   },
   {
     date: 'February 2024 - June 2024',
-    location: 'Study Abroad Exchange Program',
+    role: 'Study Abroad Exchange Program',
     title: 'University of Melbourne',
     content: <p>Relevant coursework: Database Systems, Declarative Programming, Software Modelling and Design
     <br/>Cool places I visited: Great Ocean Road, MCG, Botanical Gardens, Yarra River Trail, St Kilda</p>,
@@ -250,8 +250,19 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'June 2025 - present',
+    role: 'Software Engineer Intern',
+    title: 'McDonald\'s',
+    content: (
+      <p>
+        •   Redesigning the product selection screen of the McDonald’s Global Mobile Application.<br/>
+        •   Actively participate in daily stand-ups, sprint planning, and refinement meetings in a Scrum framework.<br/>
+      </p>
+    ),
+  },
+  {
     date: 'July 2024 - August 2024',
-    location: 'Data Science Intern',
+    role: 'Data Science Intern',
     title: 'Naval Surface Warfare Center - Crane Division',
     content: (
       <p>
@@ -263,41 +274,26 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'June 2023 - December 2023',
-    location: 'Software Engineer Intern',
+    role: 'Software Engineer Intern',
     title: 'National Aeronautics and Space Administration (NASA)',
     content: (
       <p>
-        • Created an application in R Shiny summarizing 7,000+ NASA Applied Sciences investments to provide
-NASA program managers with a comprehensive tool set to assess projects’ success and diversity.<br/>
-        • Summarized investments using metrics such as dollar amount invested, geographic location, and reinvestment rate in accordance with a data-driven approach and the FAIR principles.<br/>
-        • Presented the application at NASA Headquarters to Applied Sciences Program leadership.<br/>
+        •   Summarized 7,000+ NASA Applied Sciences investments by creating an application to provide program managers with a comprehensive tool set to assess projects’ success and diversity.<br/>
+        •   Presented the application at NASA Headquarters to Applied Sciences Program leadership.<br/>
       </p>
     ),
   },
   {
     date: 'September 2022 - present',
-    location: 'Website Administrator',
+    role: 'Website Administrator',
     title: 'University of Illinois at Urbana-Champaign Campus Honors Program',
     content: (
       <p>
-        •	Spearheaded the design and development of the front-end content for the CHP website, utilizing WordPress to create an engaging and user-friendly online platform.<br/>
-        •	Leveraged PHP and SQL to maintain, optimize, and secure the CHP database system, ensuring data integrity and accessibility for CHP student and faculty records.<br/>
-        •	Automated the time-consuming general education credit petition process using Python.
+        •	  Leading the design and development of the front-end content for the <a href="https://honors.illinois.edu/" target="_blank">CHP website</a>.<br/>
+        •	  Automated the time-consuming general education credit petition process using Python.
       </p>
     ),
-  },
-  {
-    date: 'September 2022 - June 2024',
-    location: 'Researcher',
-    title: 'Crowd Dynamics Lab',
-    content: (
-      <p>
-        •   Conducted a study to audit online print and e-book markets for price fairness against browsing
-profiles defined by 8 unique race-and-gender combinations.<br/>
-        •   Scraped product information and price data for 280,000+ books across the specified browsing profiles by writing Selenium Python and SQL scripts.<br/>
-      </p>
-    ),
-  },
+  }
 ];
 
 
