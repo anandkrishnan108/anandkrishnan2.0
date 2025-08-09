@@ -235,7 +235,7 @@ export const education: TimelineItem[] = [
     role: 'Bachelor of Science in Computer Science',
     title: 'University of Illinois at Urbana-Champaign',
     content: <div>
-      <p>Relevant coursework: Systems, Data Structures & Algorithms, Computer Architecture, Linear Algebra
+      <p>Relevant coursework: System Programming, AI,  Data Structures & Algorithms, Computer Architecture, Linear Algebra
     <br/>Honors: Omron National Merit Scholarship Winner (NMSC), Campus Honors Program</p>
     </div>
   },
@@ -250,13 +250,13 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'June 2025 - present',
+    date: 'June 2025 - August 2025',
     role: 'Software Engineer Intern',
     title: 'McDonald\'s',
     content: (
       <p>
-        •   Redesigning the product selection screen of the McDonald’s Global Mobile Application.<br/>
-        •   Actively participate in daily stand-ups, sprint planning, and refinement meetings in a Scrum framework.<br/>
+        •   Refactored the product selection to extra value meal flow in the McDonald’s app, impacting 150 million active users and growing annual revenue by a predicted $124 million.<br/>
+        •   Actively participated in daily stand-ups, sprint planning, and refinement meetings in a Scrum framework.<br/>
       </p>
     ),
   },
