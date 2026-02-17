@@ -21,7 +21,7 @@ import nasa_logo from '../images/portfolio/nasa.png';
 import srh_logo from '../images/portfolio/srh.webp';
 import t20_worldcup_2022 from '../images/portfolio/t20.png';
 import veganme_logo from '../images/portfolio/veganme.jpg';
-import profilepic from '../images/profilepic.png';
+import profilepic from '../images/sedona.jpeg';
 import {
   About,
   /*ContactSection,
@@ -250,6 +250,15 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'February 2026 - present',
+    role: 'Software Engineer',
+    title: 'Palantir',
+    content: (<p>
+      •   Supporting US government as a forward deployed software engineer. <br/>
+      •   Maintain an active Secret level clearance granted on June 17, 2024
+    </p>),
+  },
+  {
     date: 'June 2025 - August 2025',
     role: 'Software Engineer Intern',
     title: 'McDonald\'s',
@@ -268,7 +277,6 @@ export const experience: TimelineItem[] = [
       <p>
         •   Achieved 87% accuracy in classifying customer responses to an IT service feedback survey by developing a machine learning algorithm leveraging a roBERTa-base sentiment analysis model.<br/>
         •   Presented analysis results and potential sentiment triggers using Power BI to IT senior leadership to identify room for improvement in department operations.<br/>
-        •   Maintain an active Secret level clearance granted on June 17, 2024
       </p>
     ),
   },
